@@ -1,7 +1,7 @@
 /**
  * 
  */
-package application;
+package com.app.application.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -24,7 +24,7 @@ public class SampleController extends SpringBootServletInitializer {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World!";
+		return "index";
 	}
 
 	public static void main(String[] args) throws Exception {
